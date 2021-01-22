@@ -62,7 +62,7 @@ int main(void) {
 
     PRINTF("Hello World\n");
 
-    resultado=gpioPutHigh(KPTB7);
+    resultado=gpioPutLow(KPTB7);
 	if(resultado!=kStatus_Success)
 		printf("Error de operacion");
 
